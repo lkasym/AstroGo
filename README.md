@@ -63,7 +63,7 @@ AstroGo/
 ### Backend Setup (Flask API)
 1. Clone the repository and navigate to the `AstroGo` directory:
    ```bash
-   git clone <repository-url>
+   git clone <https://github.com/lkasym/AstroGo>
    cd AstroGo/backend
    ```
 2. Install the required Python packages:
