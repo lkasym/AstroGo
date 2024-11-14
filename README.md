@@ -1,6 +1,6 @@
 
 
-<h1 align="center">✨ AstroGo: Your AI-Powered Astrology Companion ✨</h1>
+<h1 align="center">🌌 AstroGo: Your AI-Powered Astrology Companion 🌌</h1>
 
 <p align="center">
   <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License">
@@ -8,24 +8,29 @@
   <img src="https://img.shields.io/badge/Language-JavaScript%20|%20Python-yellow" alt="Languages">
   <img src="https://img.shields.io/badge/OpenAI-GPT--4o-purple" alt="OpenAI">
   <br><br>
-  <strong><em>Bringing ancient astrological wisdom to the modern era with the power of AI.</em></strong>
+  <strong><em>Blending ancient astrological wisdom with modern AI technology.</em></strong>
 </p>
 
 ---
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/66814245/142984467-b7e2d3b1-13f5-4d69-b1ef-c7310a5c19a5.png" width="700" alt="AstroGo Mockup">
+  <img src="https://github.com/lkasym/AstroGo/blob/main/Screenshot_20241113_114151_Expo%20Go.jpg" width="250" style="padding: 5px;">
+  <img src="https://github.com/lkasym/AstroGo/blob/main/Screenshot_20241113_114209_Expo%20Go.jpg" width="250" style="padding: 5px;">
+  <img src="https://github.com/lkasym/AstroGo/blob/main/Screenshot_20241113_114213_Expo%20Go.jpg" width="250" style="padding: 5px;">
+  <br>
+  <img src="https://github.com/lkasym/AstroGo/blob/main/Screenshot_20241113_114226_Expo%20Go.jpg" width="250" style="padding: 5px;">
+  <img src="https://github.com/lkasym/AstroGo/blob/main/Screenshot_20241113_114230_Expo%20Go.jpg" width="250" style="padding: 5px;">
 </p>
 
 ---
 
 ## 🌠 Key Features
 
-- 🗣️ **AI Chatbot** - Receive instant answers to your astrology-related questions.
-- 🔮 **In-Depth Chart Calculations** - From planetary positions to Dashas, get precise interpretations.
-- 📍 **Location-Based Insights** - Accurate, personalized readings with OpenCage API geolocation.
-- 🎨 **Elegant UI** - Smooth, responsive design with React Native for an engaging experience.
-- 🚀 **Optimized Backend** - High-performance processing with Flask for real-time astrological data.
+- 🗣️ **AI Chatbot** - Get real-time answers to your astrology questions.
+- 🔮 **In-Depth Chart Calculations** - Analyze planetary positions, Dashas, and more.
+- 📍 **Location-Based Insights** - Accurate, personalized readings powered by OpenCage API.
+- 🎨 **Elegant UI** - Designed with React Native for an intuitive user experience.
+- 🚀 **Optimized Backend** - Efficient data processing with Flask for real-time insights.
 
 ---
 
@@ -61,8 +66,6 @@ AstroGo/
 
 ## 📚 Libraries Used
 
-AstroGo is powered by a carefully curated set of libraries for precise astrological calculations, seamless frontend experience, and backend efficiency.
-
 | Purpose                          | Library                                                |
 | -------------------------------- | ------------------------------------------------------ |
 | **Astrological Calculations**    | `swisseph`                                             |
@@ -79,18 +82,17 @@ AstroGo is powered by a carefully curated set of libraries for precise astrologi
 
 ## 🌟 Features and Workflow
 
-AstroGo uses a seamless combination of advanced AI and traditional astrology calculations to bring users an elevated astrological experience.
+AstroGo combines advanced AI with traditional astrology for a unique, personalized experience:
 
 1. **Data Processing**:
-   - Calculates planetary positions, Lagna, and houses for comprehensive astrological insights.
-   - Considers each planet’s strength, weakness, or debilitation.
-   - Calculates Mahadasha and Antardasha cycles for accurate life event forecasting.
+   - Analyzes planetary positions, Lagna, houses, and Dasha cycles.
+   - Considers planetary strength, weakness, or debilitation.
 
 2. **AI-Powered Chatbot**:
-   - Leveraging OpenAI's fine-tuned GPT-4-turbo model to answer astrological questions based on user-specific data.
+   - Built with OpenAI’s fine-tuned GPT-4-turbo model for real-time, personalized responses.
 
 3. **Geolocation for Precision**:
-   - Integrated with OpenCage API to tailor readings based on the user’s birth location, providing even more precise insights.
+   - Uses OpenCage API to enhance predictions based on the user’s birth location.
 
 ---
 
@@ -100,7 +102,7 @@ AstroGo uses a seamless combination of advanced AI and traditional astrology cal
 
 - **Node.js** and **npm** for React Native setup
 - **Python 3.x** for the backend
-- **OpenAI API Key** and **OpenCage API Key**
+- **API Keys** for OpenAI and OpenCage
 
 ### Installation Steps
 
@@ -110,8 +112,8 @@ AstroGo uses a seamless combination of advanced AI and traditional astrology cal
    cd AstroGo
    ```
 
-2. **Backend Setup (Flask)**
-   - Navigate to the `backend` directory:
+2. **Backend Setup**
+   - Navigate to `backend` and install dependencies:
      ```bash
      cd backend
      pip install -r requirements.txt
@@ -122,7 +124,7 @@ AstroGo uses a seamless combination of advanced AI and traditional astrology cal
      python app.py
      ```
 
-3. **Frontend Setup (React Native)**
+3. **Frontend Setup**
    - Go to the `frontend` directory:
      ```bash
      cd ../frontend
@@ -134,13 +136,13 @@ AstroGo uses a seamless combination of advanced AI and traditional astrology cal
      ```
 
 4. **Connecting Backend and Frontend**
-   - Make sure the backend is running on `http://localhost:5000`. Update the API URL in the frontend code if necessary.
+   - Ensure the backend is running on `http://localhost:5000`. Update the API URL in the frontend if needed.
 
 ---
 
-## 📚 Data Sources
+## 📜 Data Sources
 
-AstroGo’s model has been trained and refined using reliable astrological sources, ensuring a depth and accuracy in predictions that users can trust.
+AstroGo’s model is based on respected astrological texts, ensuring accurate and insightful predictions:
 
 - [Saptarishis Astrology Articles](https://saptarishisastrology.com/category/articles/)
 - [Brihat Parashara Hora Shastra (English)](https://archive.org/details/BPHSEnglish)
@@ -150,14 +152,26 @@ AstroGo’s model has been trained and refined using reliable astrological sourc
 
 ## 🤖 AI Model Training
 
-AstroGo’s chatbot is fine-tuned with **OpenAI GPT-4-turbo** on a dataset of astrological wisdom, making it highly accurate and responsive to user queries.
+AstroGo’s chatbot is fine-tuned with **OpenAI GPT-4-turbo** on a rich dataset, enabling it to provide accurate and insightful astrological guidance.
 
 ---
 
+## 🚀 Future Enhancements
 
+- **User Profiles & History** - Save and revisit past readings.
+- **Social Media Integration** - Share unique insights with friends and followers.
+- **Expanded Interpretations** - Incorporate additional astrological methods for even deeper insights.
+
+---
+
+## 📝 License
+
+AstroGo is open-source and available under the MIT License. See the [LICENSE](LICENSE) file for more information.
+
+---
 
 <p align="center">
   <strong>✨ Thank you for exploring AstroGo! ✨</strong><br>
-  Your support means the stars to us! If you have feedback or suggestions, please reach out or contribute via <a href="https://github.com/lkasym/AstroGo">GitHub</a>.
+  We’d love to hear your feedback and suggestions! Contribute, open an issue, or give a ⭐️ on <a href="https://github.com/lkasym/AstroGo">GitHub</a>.
 </p>
 
