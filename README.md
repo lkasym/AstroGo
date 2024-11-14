@@ -14,7 +14,7 @@
 ---
 
 <p align="center">
-  <img src="https://github.com/lkasym/AstroGo/blob/main/Screenshot_20241113_114151_Expo%20Go.jpg" width="250" style="padding: 5px;">
+  
   <img src="https://github.com/lkasym/AstroGo/blob/main/Screenshot_20241113_114209_Expo%20Go.jpg" width="250" style="padding: 5px;">
   <img src="https://github.com/lkasym/AstroGo/blob/main/Screenshot_20241113_114213_Expo%20Go.jpg" width="250" style="padding: 5px;">
   <br>
